@@ -1,0 +1,53 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.venv/
+.env
+env/
+venv/
+
+# Build directories
+build/
+dist/
+*.bin
+*.elf
+
+# IDE
+.vscode/
+.vs/
+*.code-workspace
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Project specific
+*.o
+*.a
+*.so
+.clang_complete
+.c_cpp_properties.json
+compile_commands.json
+
+# Serial/debugging
+*.log
+.monitor.log

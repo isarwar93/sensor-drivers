@@ -1,0 +1,32 @@
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+.venv
+
+# Project specific
+.pio/
+.pioenvs/
+build/
+dist/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
