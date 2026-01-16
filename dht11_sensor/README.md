@@ -34,28 +34,50 @@ Connect the DHT11 sensor to the ESP32 Lolin as follows:
 
 ### Installation Steps
 
-1. **Clone or navigate to the project directory**:
+#### First-Time Setup
+
+1. **Navigate to the project directory**:
    ```bash
    cd /home/ismail-sarwar/esp32-humidity-sensor
    ```
 
-2. **Create a Python virtual environment**:
+2. **Create a Python virtual environment** (one time only):
    ```bash
    python -m venv .venv
+   ```
+
+3. **Activate the virtual environment**:
+   ```bash
    source .venv/bin/activate  # On Linux/macOS
    # or
    .venv\Scripts\activate  # On Windows
    ```
 
-3. **Install PlatformIO**:
+4. **Install PlatformIO**:
    ```bash
    pip install platformio
    ```
 
-4. **Verify installation**:
+5. **Verify installation**:
    ```bash
    pio --version
    ```
+
+#### Every Subsequent Work Session
+
+Simply activate the existing virtual environment:
+
+```bash
+source .venv/bin/activate  # On Linux/macOS
+# or
+.venv\Scripts\activate  # On Windows
+```
+
+You only need to create the virtual environment once. After that, just activate it each time you start working. When done, deactivate with:
+
+```bash
+deactivate
+```
 
 ## Building and Flashing
 
